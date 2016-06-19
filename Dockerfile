@@ -6,7 +6,8 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY package.json ./
+# COPY package.json ./
+ADD /Users/ameer/dev/github/twilio-contact-center-docker /usr/src/app/twilio-contact-center-docker
 
 RUN npm install
 
