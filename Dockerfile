@@ -11,4 +11,4 @@ RUN npm install
 
 EXPOSE 5000
 
-CMD [ "npm", "start app.js" ]
+CMD [ "npm", "app.js" ]
